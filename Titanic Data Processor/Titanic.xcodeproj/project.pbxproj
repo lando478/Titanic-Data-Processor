@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59AEBD052A507EB00086D637 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59AEBD042A507EB00086D637 /* main.cpp */; };
+		59AEBD1B2A512B480086D637 /* CSVFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59AEBD192A512B480086D637 /* CSVFile.cpp */; };
+		59BCC3012AAF69DD00D4C8D4 /* ExampleDataCollector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59BCC2FF2AAF69DD00D4C8D4 /* ExampleDataCollector.cpp */; };
+		BD22A6ED2B1280F100448147 /* OutputTableRow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD22A6EB2B1280F100448147 /* OutputTableRow.cpp */; };
+		BD54C4A62B01C4EC007B7482 /* Passenger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD54C4A42B01C4EC007B7482 /* Passenger.cpp */; };
+		BD54C4AA2B01CD90007B7482 /* PassengerDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD54C4A82B01CD90007B7482 /* PassengerDatabase.cpp */; };
+		BDE52C942B0FF8FC00D2FA12 /* PassengerOutputTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDE52C922B0FF8FC00D2FA12 /* PassengerOutputTable.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		59AEBCFF2A507EB00086D637 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		596E9F032AA91CAE00C723F4 /* Enums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		599890442A8D826F004B203C /* titanic.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = titanic.csv; sourceTree = "<group>"; };
+		599890452A8D826F004B203C /* sample.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample.csv; sourceTree = "<group>"; };
+		59AEBD012A507EB00086D637 /* Titanic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Titanic; sourceTree = BUILT_PRODUCTS_DIR; };
+		59AEBD042A507EB00086D637 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		59AEBD182A50EA180086D637 /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		59AEBD192A512B480086D637 /* CSVFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CSVFile.cpp; sourceTree = "<group>"; };
+		59AEBD1A2A512B480086D637 /* CSVFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSVFile.h; sourceTree = "<group>"; };
+		59AEBD1D2A512D190086D637 /* DataCollectorCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataCollectorCallback.h; sourceTree = "<group>"; };
+		59BCC2FF2AAF69DD00D4C8D4 /* ExampleDataCollector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExampleDataCollector.cpp; sourceTree = "<group>"; };
+		59BCC3002AAF69DD00D4C8D4 /* ExampleDataCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleDataCollector.h; sourceTree = "<group>"; };
+		59BCC3022AB2087900D4C8D4 /* movie.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = movie.csv; sourceTree = "<group>"; };
+		BD22A6EB2B1280F100448147 /* OutputTableRow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OutputTableRow.cpp; sourceTree = "<group>"; };
+		BD22A6EC2B1280F100448147 /* OutputTableRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutputTableRow.h; sourceTree = "<group>"; };
+		BD54C4A42B01C4EC007B7482 /* Passenger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Passenger.cpp; sourceTree = "<group>"; };
+		BD54C4A52B01C4EC007B7482 /* Passenger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Passenger.h; sourceTree = "<group>"; };
+		BD54C4A82B01CD90007B7482 /* PassengerDatabase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PassengerDatabase.cpp; sourceTree = "<group>"; };
+		BD54C4A92B01CD90007B7482 /* PassengerDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PassengerDatabase.h; sourceTree = "<group>"; };
+		BDE52C922B0FF8FC00D2FA12 /* PassengerOutputTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PassengerOutputTable.cpp; sourceTree = "<group>"; };
+		BDE52C932B0FF8FC00D2FA12 /* PassengerOutputTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PassengerOutputTable.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59AEBCFE2A507EB00086D637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59AEBCF82A507EB00086D637 = {
+			isa = PBXGroup;
+			children = (
+				59AEBD172A50E9B70086D637 /* Data */,
+				59AEBD032A507EB00086D637 /* Titanic */,
+				59AEBD022A507EB00086D637 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59AEBD022A507EB00086D637 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59AEBD012A507EB00086D637 /* Titanic */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59AEBD032A507EB00086D637 /* Titanic */ = {
+			isa = PBXGroup;
+			children = (
+				BD22A6EB2B1280F100448147 /* OutputTableRow.cpp */,
+				BD22A6EC2B1280F100448147 /* OutputTableRow.h */,
+				BDE52C922B0FF8FC00D2FA12 /* PassengerOutputTable.cpp */,
+				BDE52C932B0FF8FC00D2FA12 /* PassengerOutputTable.h */,
+				BD54C4A82B01CD90007B7482 /* PassengerDatabase.cpp */,
+				BD54C4A92B01CD90007B7482 /* PassengerDatabase.h */,
+				BD54C4A52B01C4EC007B7482 /* Passenger.h */,
+				BD54C4A42B01C4EC007B7482 /* Passenger.cpp */,
+				59AEBD042A507EB00086D637 /* main.cpp */,
+				59AEBD182A50EA180086D637 /* Settings.h */,
+				596E9F032AA91CAE00C723F4 /* Enums.h */,
+				59AEBD192A512B480086D637 /* CSVFile.cpp */,
+				59AEBD1A2A512B480086D637 /* CSVFile.h */,
+				59AEBD1D2A512D190086D637 /* DataCollectorCallback.h */,
+				59BCC2FF2AAF69DD00D4C8D4 /* ExampleDataCollector.cpp */,
+				59BCC3002AAF69DD00D4C8D4 /* ExampleDataCollector.h */,
+			);
+			path = Titanic;
+			sourceTree = "<group>";
+		};
+		59AEBD172A50E9B70086D637 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				59BCC3022AB2087900D4C8D4 /* movie.csv */,
+				599890452A8D826F004B203C /* sample.csv */,
+				599890442A8D826F004B203C /* titanic.csv */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59AEBD002A507EB00086D637 /* Titanic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59AEBD082A507EB00086D637 /* Build configuration list for PBXNativeTarget "Titanic" */;
+			buildPhases = (
+				59AEBCFD2A507EB00086D637 /* Sources */,
+				59AEBCFE2A507EB00086D637 /* Frameworks */,
+				59AEBCFF2A507EB00086D637 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Titanic;
+			productName = Titanic;
+			productReference = 59AEBD012A507EB00086D637 /* Titanic */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59AEBCF92A507EB00086D637 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					59AEBD002A507EB00086D637 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 59AEBCFC2A507EB00086D637 /* Build configuration list for PBXProject "Titanic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59AEBCF82A507EB00086D637;
+			productRefGroup = 59AEBD022A507EB00086D637 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59AEBD002A507EB00086D637 /* Titanic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59AEBCFD2A507EB00086D637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE52C942B0FF8FC00D2FA12 /* PassengerOutputTable.cpp in Sources */,
+				59AEBD1B2A512B480086D637 /* CSVFile.cpp in Sources */,
+				BD54C4AA2B01CD90007B7482 /* PassengerDatabase.cpp in Sources */,
+				59AEBD052A507EB00086D637 /* main.cpp in Sources */,
+				BD54C4A62B01C4EC007B7482 /* Passenger.cpp in Sources */,
+				BD22A6ED2B1280F100448147 /* OutputTableRow.cpp in Sources */,
+				59BCC3012AAF69DD00D4C8D4 /* ExampleDataCollector.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		59AEBD062A507EB00086D637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		59AEBD072A507EB00086D637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		59AEBD092A507EB00086D637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59AEBD0A2A507EB00086D637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59AEBCFC2A507EB00086D637 /* Build configuration list for PBXProject "Titanic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59AEBD062A507EB00086D637 /* Debug */,
+				59AEBD072A507EB00086D637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59AEBD082A507EB00086D637 /* Build configuration list for PBXNativeTarget "Titanic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59AEBD092A507EB00086D637 /* Debug */,
+				59AEBD0A2A507EB00086D637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59AEBCF92A507EB00086D637 /* Project object */;
+}
